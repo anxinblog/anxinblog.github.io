@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title> 安心の博客</title>
+      <title>集合 |  安心の博客</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -60,11 +60,25 @@
   data-scroll-reveal
 >
   <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  集合
+</h1>
+ 
+
+      
+    </header>
      
     <div class="article-meta">
       <a href="/2024/06/10/%E9%9B%86%E5%90%88/" class="article-date">
   <time datetime="2024-06-10T09:19:56.599Z" itemprop="datePublished">2024-06-10</time>
-</a>   
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/javaSE/">javaSE</a>
+  </div>
+  
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
@@ -94,8 +108,7 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <hr>
-<h2 id="title-集合categories-javaSE"><a href="#title-集合categories-javaSE" class="headerlink" title="title:集合categories:javaSE"></a>title:集合<br>categories:javaSE</h2><h1 id="一-集合体系图"><a href="#一-集合体系图" class="headerlink" title="一.集合体系图"></a>一.集合体系图</h1><p><img src="https://cdn.jsdelivr.net/gh/anxinblog/picture@master/img/image-20240602210621451.png" alt="image-20240602210621451"></p>
+  <h1 id="一-集合体系图"><a href="#一-集合体系图" class="headerlink" title="一.集合体系图"></a>一.集合体系图</h1><p><img src="https://cdn.jsdelivr.net/gh/anxinblog/picture@master/img/image-20240602210621451.png" alt="image-20240602210621451"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/anxinblog/picture@master/img/image-20240602210701096.png" alt="image-20240602210701096"></p>
 <h2 id="1-常用方法"><a href="#1-常用方法" class="headerlink" title="1.常用方法"></a>1.常用方法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test01</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">List</span> <span class="variable">list</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ArrayList</span>();</span><br><span class="line">        <span class="comment">//add() 添加单个元素</span></span><br><span class="line">        list.add(<span class="string">&quot;jack&quot;</span>);</span><br><span class="line">        System.out.println(list);</span><br><span class="line">        <span class="comment">//remove() 删除指定位置的元素</span></span><br><span class="line">        list.remove(<span class="number">0</span>);</span><br><span class="line">        System.out.println(list);</span><br><span class="line">        <span class="comment">//contains() 查找元素是否存在</span></span><br><span class="line">        System.out.println(list.contains(<span class="string">&quot;jack&quot;</span>));</span><br><span class="line">        <span class="comment">//size() 获取元素个数</span></span><br><span class="line">        System.out.println(list.size());</span><br><span class="line">        <span class="comment">//isEmpty() 判断集合是否为空</span></span><br><span class="line">        System.out.println(list.isEmpty());</span><br><span class="line">        <span class="comment">//clear() 清空集合</span></span><br><span class="line">        list.clear();</span><br><span class="line">        <span class="comment">//addAll() 添加多个元素</span></span><br><span class="line">        <span class="type">List</span> <span class="variable">list2</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ArrayList</span>();</span><br><span class="line">        list2.add(<span class="string">&quot;西游记&quot;</span>);</span><br><span class="line">        list2.add(<span class="string">&quot;水浒传&quot;</span>);</span><br><span class="line">        list.addAll(list2);</span><br><span class="line">        System.out.println(list);</span><br><span class="line">        <span class="comment">//containsAll() 判断多个元素是否存在</span></span><br><span class="line">        System.out.println(list.containsAll(list2));</span><br><span class="line">        <span class="comment">//removeAll() 删除多个元素</span></span><br><span class="line">        list.removeAll(list2);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -188,11 +201,14 @@
 <h2 id="3-自定义泛型方法"><a href="#3-自定义泛型方法" class="headerlink" title="3.自定义泛型方法"></a>3.自定义泛型方法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test02</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Car</span> <span class="variable">car</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Car</span>();</span><br><span class="line">        <span class="comment">//当调用泛型方法时，传入参数编译器就会确定类型</span></span><br><span class="line">        car.fly(<span class="string">&quot;宝马&quot;</span>,<span class="number">1000</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Car</span>&#123;</span><br><span class="line">    <span class="comment">//泛型方法</span></span><br><span class="line">    <span class="keyword">public</span> &lt;T,R&gt; <span class="keyword">void</span> <span class="title function_">fly</span><span class="params">(T t,R r)</span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="4-泛型继承和通配符"><a href="#4-泛型继承和通配符" class="headerlink" title="4.泛型继承和通配符"></a>4.泛型继承和通配符</h2><blockquote>
-<?>	表示任意类型泛型都可以接收
-
-<? extends E>	可以接收E及其子类
-
-<? super E>	可以接收E及其父类</blockquote>
+<p><code>&lt;?&gt;</code>	表示任意类型泛型都可以接收</p>
+</blockquote>
+<blockquote>
+<p><code>&lt;? extends E&gt;</code>	可以接收E及其子类</p>
+</blockquote>
+<blockquote>
+<p><code>&lt;? super E&gt;</code>	可以接收E及其父类</p>
+</blockquote>
  
       <!-- reward -->
       
