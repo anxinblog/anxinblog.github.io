@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>/2024/04/08/%E4%BA%BA%E7%94%9F/</url>
+    <content><![CDATA[<h1 id="活着"><a href="#活着" class="headerlink" title="活着"></a>活着</h1><p>在焦头烂额的时候从未犹疑，在压力爆表的时候从未放弃，我想，这就是真正的热爱和对梦想最大的尊重。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>常用类</title>
     <url>/2024/05/08/%E5%B8%B8%E7%94%A8%E7%B1%BB/</url>
     <content><![CDATA[<h1 id="一-包装类"><a href="#一-包装类" class="headerlink" title="一.包装类"></a>一.包装类</h1><table>
@@ -83,12 +89,6 @@
 <li>如果字符串很少修改，被多个对象引用，使用String</li>
 </ol>
 <h1 id="二-Math"><a href="#二-Math" class="headerlink" title="二.Math"></a>二.Math</h1><h1 id="三-Arrays"><a href="#三-Arrays" class="headerlink" title="三.Arrays"></a>三.Arrays</h1><h1 id="四-日期"><a href="#四-日期" class="headerlink" title="四.日期"></a>四.日期</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2024/04/08/%E4%BA%BA%E7%94%9F/</url>
-    <content><![CDATA[<h1 id="活着"><a href="#活着" class="headerlink" title="活着"></a>活着</h1><p>在焦头烂额的时候从未犹疑，在压力爆表的时候从未放弃，我想，这就是真正的热爱和对梦想最大的尊重。</p>
-]]></content>
   </entry>
   <entry>
     <title>集合</title>
